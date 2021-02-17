@@ -30,8 +30,8 @@ function preload(){
 }
 
 function setup() {
-  createCanvas(600, 200);
-  mario = createSprite(50,180,20,50);
+  createCanvas(windowWidth,windowHeight);
+  mario = createSprite(50,height-70,20,50);
   mario.addAnimation("running", mario_running);
   mario.scale = 0.5;
   
